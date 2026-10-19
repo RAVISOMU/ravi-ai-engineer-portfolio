@@ -66,7 +66,7 @@
               <div class="project-topline"><span class="project-number">01</span><span class="status-label status-experience">Professional experience</span></div>
               <h3>Industrial Machine Vision & Quality Inspection</h3>
               <p>Rule-based and AI-assisted inspection workflows for industrial components, combining image processing, geometric measurement, OCR, and recipe-driven decisions.</p>
-              <div class="tag-list"><span>Python</span><span>OpenCV</span><span>YOLO</span><span>Industrial Cameras</span><span>Metrology</span></div>
+              <div class="tag-list"><span>Python</span><span>FastAPI</span><span>OpenCV</span><span>YOLO</span><span>Detectron2</span><span>Industrial Cameras</span><span>Metrology</span></div>
               <!--<div class="project-repo-action"><a class="button button-secondary repo-button" href="https://github.com/RAVISOMU/YOUR-REPOSITORY-1" target="_blank" rel="noreferrer" data-placeholder-link>View source on GitHub <span>↗</span></a></div>-->
               <details class="case-details"><summary>Explore the engineering approach <span>＋</span></summary><div class="details-body"><b>Problem</b><p>Make repeatable, part-specific inspections under real production constraints.</p><b>Approach</b><p>Camera-triggered acquisition, configurable ROIs and masters, edge/shape analysis, dimensional checks, OCR where applicable, and tolerance-based OK/NG logic.</p><b>Engineering considerations</b><p>Lighting, focus, calibration, part positioning, measurement uncertainty, false positives, and clear inspection overlays all affect reliability.</p><b>Scope note</b><p>Examples reflect professional project experience. Plant-specific imagery and confidential implementation details are intentionally excluded.</p></div></details>
             </div>
@@ -82,7 +82,7 @@
               <div class="project-topline"><span class="project-number">02</span><span class="status-label status-built">Professional Experience</span></div>
               <h3>Help Desk LLM Chatbot with RAG</h3>
               <p>A document-grounded assistant designed to answer support questions using a searchable knowledge base instead of relying only on model memory.</p>
-              <div class="tag-list"><span>Python</span><span>FastAPI</span><span>ChromaDB</span><span>Embeddings</span><span>Ollama</span></div>
+              <div class="tag-list"><span>Python</span><span>FastAPI</span><span>ChromaDB</span><span>Embeddings</span><span>LLM</span></div>
               <div class="project-repo-action"><a class="button button-secondary repo-button" href="https://github.com/RAVISOMU/help-llm-chatbot" target="_blank" rel="noreferrer" data-placeholder-link>View source on GitHub <span>↗</span></a></div>
               <details class="case-details"><summary>Explore the engineering approach <span>＋</span></summary><div class="details-body"><b>Pipeline</b><p>Ingest help documents, split content into chunks, generate embeddings, index them in ChromaDB, retrieve relevant context, and construct a grounded response.</p><b>Application layer</b><p>FastAPI query endpoint with bounded conversation history and configurable retrieval settings.</p><b>Grounding & context control</b><p>Uses retrieved help-document context to keep responses relevant to the knowledge base, with bounded conversation history and configurable retrieval settings to control context size and reduce unrelated answers.</p></div></details>
             </div>
@@ -98,7 +98,7 @@
               <div class="project-topline"><span class="project-number">03</span><span class="status-label status-progress">Professional Experience</span></div>
               <h3>Predictive Maintenance ML Platform</h3>
               <p>A modular model-serving workflow that combines anomaly detection, remaining useful life estimation, and feature-level explanations for machine health data.</p>
-              <div class="tag-list"><span>PyTorch</span><span>HDBSCAN</span><span>XGBoost</span><span>SHAP</span><span>FastAPI</span></div>
+              <div class="tag-list"><span>Python</span><span>FastAPI</span><span>PyTorch</span><span>AutoEncoder</span><span>HDBSCAN</span><span>XGBoost</span><span>SHAP</span></div>
               <!--<div class="project-repo-action"><a class="button button-secondary repo-button" href="https://github.com/RAVISOMU/YOUR-REPOSITORY-3" target="_blank" rel="noreferrer" data-placeholder-link>View source on GitHub <span>↗</span></a></div>-->
               <details class="case-details"><summary>Explore the engineering approach <span>＋</span></summary><div class="details-body"><b>Model design</b><p>Sequence autoencoder + HDBSCAN for anomaly signals; XGBoost for remaining useful life estimation; SHAP and trend information to support interpretation.</p><b>Serving workflow</b><p>Device-specific model artifacts, input validation, prediction endpoints, health/status checks, and model reload operations.</p><b>Status</b><p>Active development and validation. The chart above is illustrative and does not represent measured production data or model performance.</p></div></details>
             </div>
@@ -114,7 +114,7 @@
               <div class="project-topline"><span class="project-number">04</span><span class="status-label status-progress">Professional Experience</span></div>
               <h3>Manufacturing AI Platform</h3>
               <p>A developing concept for connecting manufacturing data, vision results, knowledge retrieval, and root-cause workflows through orchestrated AI tools.</p>
-              <div class="tag-list"><span>LangGraph</span><span>RAG</span><span>Tool Calling</span><span>MCP</span><span>Python</span></div>
+              <div class="tag-list"><span>Python</span><span>FastAPI</span><span>LangGraph</span><span>RAG</span><span>Tool Calling</span><span>MCP</span><span>LLM</span></div>
               <!--<div class="project-repo-action"><a class="button button-secondary repo-button" href="https://github.com/RAVISOMU/YOUR-REPOSITORY-4" target="_blank" rel="noreferrer" data-placeholder-link>View source on GitHub <span>↗</span></a></div>-->
               <details class="case-details"><summary>Explore the engineering approach <span>＋</span></summary><div class="details-body"><b>Architecture direction</b><p>Route requests to specialized data, vision, knowledge-retrieval, and root-cause analysis capabilities using LangGraph-based orchestration, with explicit workflow state and traceable outputs.</p><b>Agent orchestration</b><p>Coordinate specialized agents through state-managed workflows, conditional routing, tool calling, and controlled handoffs to execute multi-step manufacturing tasks.</p><b>MCP & tool integration</b><p>Use Model Context Protocol (MCP) concepts to connect agents with tools and external capabilities through structured tool interactions.</p><b>Reliability & control</b><p>Apply typed tool inputs, bounded retries, permission checks, human approval for consequential actions, and audit-friendly workflow state.</p></div></details>
             </div>
@@ -128,9 +128,9 @@
             </div>
             <div class="project-content">
               <div class="project-topline"><span class="project-number">05</span><span class="status-label status-built">Professional Experience</span></div>
-              <h3>YOLO Object Detection</h3>
+              <h3>YOLO Classfication | Object Detection | Instance Segmentation</h3>
               <p>A computer vision assessment covering dataset preparation, model training, inference outputs, confidence thresholds, and the practical limitations of synthetic data.</p>
-              <div class="tag-list"><span>YOLO</span><span>Python</span><span>Dataset Prep</span><span>Evaluation</span></div>
+              <div class="tag-list"><span>YOLO</span><span>Python</span><span>Dataset Prep</span><span>Model Training</span><span>Evaluation</span><span>Deployment</span></div>
               <!--<div class="project-repo-action"><a class="button button-secondary repo-button" href="https://github.com/RAVISOMU/YOUR-REPOSITORY-5" target="_blank" rel="noreferrer" data-placeholder-link>View source on GitHub <span>↗</span></a></div>-->
               <details class="case-details"><summary>Explore the engineering approach <span>＋</span></summary><div class="details-body"><b>Workflow</b><p>Prepare labeled data, train a baseline model, run inference, inspect false positives, and tune confidence thresholds against representative samples.</p><b>Deployment consideration</b><p>Pixel measurements only become physical measurements after suitable calibration under controlled camera geometry and a fixed or otherwise modeled working distance.</p><b>Scope note</b><p>Detection values in the artwork are illustrative, not reported evaluation results.</p></div></details>
             </div>
@@ -152,7 +152,7 @@
                 <div><h3>Machine Vision Developer</h3><p class="experience-company">Ascent Intellimation Private Limited</p></div>
                 <span class="experience-period">Jun 2026 — Present</span>
               </div>
-              <p class="experience-summary">Developing rule-based and AI-assisted industrial machine vision solutions tailored to client inspection requirements, using industrial cameras, Python, and OpenCV.</p>
+              <p class="experience-summary">Developing Predictive Maintenance ML Platform that combines anamoly detection, Defect Mapping, RUL estimation and explanations for live machine data. Developing rule-based and AI-assisted industrial machine vision solutions tailored to client inspection requirements, using industrial cameras, Python, and OpenCV.</p>
               <ul>
                 <li>Build camera-based inspection workflows for component presence, appearance, dimensional measurement, geometric checks, and OCR/marking verification where applicable.</li>
                 <li>Implement recipe-driven inspection logic with regions of interest, master references, edge and shape analysis, tolerance checks, and OK/NG decisions.</li>
@@ -190,8 +190,8 @@
         </div>
         <div class="expertise-grid">
           <div class="expertise-card"><div class="expertise-icon">◉</div><h3>Computer Vision</h3><p>Image processing, detection, geometry, inspection logic, calibration, and camera-based workflows.</p><div class="tag-list"><span>OpenCV</span><span>YOLO</span><span>Classification</span><span>Detection</span><span>Segmentation</span><span>PyTorch</span><span>OCR</span></div></div>
-          <div class="expertise-card"><div class="expertise-icon">⌘</div><h3>GenAI & Retrieval</h3><p>Document ingestion, chunking, embeddings, retrieval, prompt design, and grounded assistant patterns.</p><div class="tag-list"><span>LLMs</span><span>RAG</span><span>NLP</span><span>ChromaDB</span><span>Ollama</span></div></div>
-          <div class="expertise-card"><div class="expertise-icon">⌁</div><h3>ML Engineering</h3><p>Training and inference pipelines, anomaly detection, model serving, validation, and interpretability.</p><div class="tag-list"><span>scikit-learn</span><span>AutoEncoders</span><span>XGBoost</span><span>HDBSCAN</span><span>SHAP</span></div></div>
+          <div class="expertise-card"><div class="expertise-icon">⌘</div><h3>GenAI & Retrieval</h3><p>Document ingestion, chunking, embeddings, retrieval, prompt design, and grounded assistant patterns.</p><div class="tag-list"><span>LLMs</span><span>RAG</span><span>NLP</span><span>Vector Databases</span><span>Ollama</span></div></div>
+          <div class="expertise-card"><div class="expertise-icon">⌁</div><h3>ML Engineering</h3><p>Training and inference pipelines, anomaly detection, model serving, validation, and interpretability.</p><div class="tag-list"><span>scikit-learn</span><span>RandomForest</span><span>AutoEncoders</span><span>XGBoost</span><span>HDBSCAN</span><span>SHAP</span></div></div>
           <div class="expertise-card"><div class="expertise-icon">⌬</div><h3>Backend & Orchestration</h3><p>API design, stateful workflows, tool integration, containerization, and deployment-oriented design.</p><div class="tag-list"><span>Python</span><span>FastAPI</span><span>LangGraph</span><span>MCP</span><span>Docker</span></div></div>
         </div>
       </section>
@@ -206,7 +206,7 @@
       </section>
 
       <section class="section about-section">
-        <div class="about-card"><div class="about-avatar">RS<span></span></div><div class="about-copy"><div class="eyebrow">05 / ABOUT</div><h2>Engineering practical intelligence.</h2><p>I'm an AI and machine vision professional working across industrial inspection and applied AI systems. My interests span computer vision, retrieval-augmented generation, predictive maintenance, and agentic workflows — with a strong focus on clear interfaces between models and real applications.</p><p>This portfolio separates professional experience, built prototypes, and active development so the scope of each project is clear.</p></div><div class="about-side"><span class="side-label">CORE FOCUS</span><b>Applied AI</b><b>Reliable APIs</b><b>Production thinking</b><span class="side-line"></span><span class="side-label">BASED IN</span><b>Pune, India</b></div></div>
+        <div class="about-card"><div class="about-avatar">RS<span></span></div><div class="about-copy"><div class="eyebrow">05 / ABOUT</div><h2>Engineering practical intelligence.</h2><p>I'm an AI and machine vision professional working across industrial inspection and applied AI systems. My interests span computer vision, retrieval-augmented generation, predictive maintenance, and agentic workflows — with a strong focus on clear interfaces between models and real applications.</p><p>This portfolio separates professional experience, built prototypes, and active developments as well.</p></div><div class="about-side"><span class="side-label">CORE FOCUS</span><b>Applied AI</b><b>Reliable APIs</b><b>Production thinking</b><span class="side-line"></span><span class="side-label">BASED IN</span><b>Pune, India</b></div></div>
       </section>
 
       <section class="section contact-section" id="contact">
